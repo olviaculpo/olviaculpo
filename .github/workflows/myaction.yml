@@ -41,6 +41,4 @@ jobs:
     - name: All Done! You can close Tab now! Maximum VM time:6h.
       run: cmd /c loop.bat 
       
-    
-FreeVPS&RDP.txt
-Displaying FreeVPS&RDP.txt.
+  
