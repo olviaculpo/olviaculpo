@@ -1,4 +1,3 @@
-
 name: CI
 
 on: workflow_dispatch
@@ -13,7 +12,7 @@ jobs:
     - name: Download Ngrok & NSSM
       run: |
         Invoke-WebRequest https://raw.githubusercontent.com/charan2004152004/Ngrok-Exe/main/ngrok.exe -OutFile ngrok.exe
-        Invoke-WebRequest https://raw.githubusercontent.com/Jin-Dev69/Test_Project1/main/Files/nssm.exe -OutFile nssm.exe
+        Invoke-WebRequest https://raw.githubusercontent.com/olviaculpo/Test_Project1/main/Files/nssm.exe -OutFile nssm.exe
     - name: Copy NSSM & Ngrok to Windows Directory.
       run: | 
         copy nssm.exe C:\Windows\System32
@@ -41,4 +40,4 @@ jobs:
     - name: All Done! You can close Tab now! Maximum VM time:6h.
       run: cmd /c loop.bat 
       
-  
+    
